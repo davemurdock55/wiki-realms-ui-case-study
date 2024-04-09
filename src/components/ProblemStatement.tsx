@@ -13,8 +13,9 @@ export default function ProblemStatement() {
       <div className="relative z-10">
         <p className="text-gray-800 sm:text-xl dark:text-white">
           <em>
-            We needed to design the initial UI for a simple, easy-to-use, customizable app that also has the capacity to be complex and powerful under the hood to provide worldbuilders with the tools
-            they need in an intuitive and straightforward way.
+            Right now, the apps that writers use are either too basic that they're not useful or too complex that they don't know where to start or get lost in the weeds. We needed to design the
+            initial UI for a simple, easy-to-use, customizable app that also has the capacity to be complex and powerful under the hood to provide worldbuilders with the tools they need in an
+            intuitive and straightforward way.
           </em>
         </p>
       </div>

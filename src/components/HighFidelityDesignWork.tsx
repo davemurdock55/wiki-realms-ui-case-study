@@ -5,7 +5,25 @@ export default function HighFidelityDesignWork() {
     <div className="p-5 rounded-lg bg-fuchsia-300 drop-shadow-xl">
       <div className="p-3 bg-white rounded-lg">
         <h2 className="mb-1 text-xl font-medium">High Fidelity Design Work: Wireframes</h2>
-        <p className="mb-3 text-sm">text</p>
+        <p className="mb-3 text-sm">
+          After compiling the findings from the initial usability test and thinking through our journey map and user task flow, we developed a second prototype in Figma. This second prototype was
+          built completely from the ground up, rather than built off the first prototype, in order to easily incorporate new consistent theming and componentization.
+          <br />
+          <br />
+          We completely redesigned the layout of the Realms screen, and also implemented a consistent header and footer across the prototype. We made several smaller changes to some of the screens and
+          rebuilt our “Block” component to improve the interactions that users struggled with during our tests. We also added stubs for several other features we hoped to implement, such as a
+          timeline, templates, and the metadata sidebar.
+          <br />
+          <br />
+          Here is a link to our second WikiRealms prototype:
+          <a
+            href="https://www.figma.com/proto/lsUK8jvIfAbO9sVPQF0qbj/Wiki-Realms-Main-Wireframing?type=design&node-id=932-10281&t=8xCXBJbXtO2blFzv-0&scaling=scale-down&page-id=647%3A447&starting-point-node-id=932%3A10281"
+            className="underline text-fuchsia-500 hover:text-fuchsia-600"
+            target="_blank"
+          >
+            https://www.figma.com/proto/lsUK8jvIfAbO9sVPQF0qbj/Wiki-Realms-Main-Wireframing?type=design&node-id=932-10281&t=8xCXBJbXtO2blFzv-0&scaling=scale-down&page-id=647%3A447&starting-point-node-id=932%3A10281
+          </a>
+        </p>
         <iframe
           className="w-full border-2 h-[500px]"
           // width="100%"

@@ -5,7 +5,38 @@ export default function JourneyMapTaskFlowFigjam() {
     <div className="p-5 rounded-lg bg-fuchsia-300 drop-shadow-xl">
       <div className="p-3 bg-white rounded-lg">
         <h2 className="mb-1 text-xl font-medium">Journey Map / Task Flow / Figjam</h2>
-        {/* <p className="mb-3 text-sm">text</p> */}
+        <p className="mb-3 text-sm">
+          As we went over our findings, we employed three additional strategies to better guide our future plans. The strategy included creating a journeymap to represent the interactions an average
+          user was observed to experience with our application. We included a summary of the users’ pain points along the usability testing process and shared possible opportunities for improvement.
+          <br />
+          <br />
+          <a href="https://drive.google.com/file/d/1Vkp5ku3rpanl9vmYsguhfJ341OeWuYCB/view?usp=drive_link" className="underline text-fuchsia-500 hover:text-fuchsia-600" target="_blank">
+            https://drive.google.com/file/d/1Vkp5ku3rpanl9vmYsguhfJ341OeWuYCB/view?usp=drive_link
+          </a>
+          <br />
+          <br />
+          We also designed a user task flow to guide our prototype development to address key pages and functionality we needed to include in our second prototype:
+          <br />
+          <br />
+          <a href="https://drive.google.com/file/d/1OMb2XdaNuRtCrUmoqkoXpJKATDnqnxy4/view?usp=drive_link" className="underline text-fuchsia-500 hover:text-fuchsia-600" target="_blank">
+            https://drive.google.com/file/d/1OMb2XdaNuRtCrUmoqkoXpJKATDnqnxy4/view?usp=drive_link
+          </a>
+          <br />
+          <br />
+          Finally, we decided that keeping track of all of our ideas and feedback would be better visualized if we made a Figjam board with sections to help with organization. We made this board
+          somewhat early on in the design process and constantly updated it as we tested and updated our design.
+          <br />
+          <br />
+          <a
+            href="https://www.figma.com/file/cgj9Frva80iqB6Zpg9dWP2/Wiki-Realms-Brainstorming?type=whiteboard&node-id=0-1&t=BDHSeTXuIhrmYvuv-0"
+            className="underline text-fuchsia-500 hover:text-fuchsia-600"
+            target="_blank"
+          >
+            https://www.figma.com/file/cgj9Frva80iqB6Zpg9dWP2/Wiki-Realms-Brainstorming?type=whiteboard&node-id=0-1&t=BDHSeTXuIhrmYvuv-0
+          </a>
+        </p>
+
+        {/* Everything for the Carousel (which doesn't work) is below: */}
         <div className="w-full bg-white rounded-lg shadow-md dark:bg-gray-800">
           <div data-hs-carousel='{ "loadingClasses": "opacity-0" }' className="relative">
             <div className="relative w-full overflow-hidden bg-white rounded-lg hs-carousel min-h-64">
