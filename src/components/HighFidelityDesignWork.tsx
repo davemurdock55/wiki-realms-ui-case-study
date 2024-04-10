@@ -21,7 +21,7 @@ export default function HighFidelityDesignWork() {
             className="underline text-fuchsia-500 hover:text-fuchsia-600"
             target="_blank"
           >
-          WikiRealms App
+          WikiRealms App (Prototype 2)
           </a>
         </p>
         <iframe
