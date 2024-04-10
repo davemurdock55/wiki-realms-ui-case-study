@@ -1,5 +1,9 @@
 import React from "react";
 
+import LeftSidebarImage from "../images/LeftSidebar_Prototype1.png";
+import RealmPageImage from "../images/RealmPage_Prototype1.png";
+// <img src={LeftSidebarImage} className="h-4/5" alt="LeftSidebarImage" />
+
 export default function UsabilityTesting() {
   return (
     <div className="p-5 rounded-lg bg-fuchsia-300 drop-shadow-xl">
@@ -18,8 +22,8 @@ export default function UsabilityTesting() {
           After extensive and repeated testing, our team organized all the feedback we observed and received into various categories of areas our application did well, and areas we needed to improve
           upon. In general, our users loved the navigation sidebar, informative page blocks, and useful block templates (not yet implemented).
           <div className="flex flex-row justify-center gap-10 my-5">
-            <strong className="text-red-500">[Image 1]</strong>
-            <strong className="text-red-500">[Image 2]</strong>
+            <img src={LeftSidebarImage} className="h-4/5" alt="LeftSidebarImage" />
+            <img src={RealmPageImage} className="h-4/5" alt="RealmPageImage" />
           </div>
           Despite the love for these core features, there were some areas users found troubling. Our notes on the main areas we needed to change are as follows:
           <ul className="pl-5 list-disc">

@@ -15,13 +15,13 @@ export default function HighFidelityDesignWork() {
           timeline, templates, and the metadata sidebar.
           <br />
           <br />
-          Here is a link to our second WikiRealms prototype:
+          Here is a link to our second WikiRealms prototype:&nbsp;
           <a
             href="https://www.figma.com/proto/lsUK8jvIfAbO9sVPQF0qbj/Wiki-Realms-Main-Wireframing?type=design&node-id=932-10281&t=8xCXBJbXtO2blFzv-0&scaling=scale-down&page-id=647%3A447&starting-point-node-id=932%3A10281"
             className="underline text-fuchsia-500 hover:text-fuchsia-600"
             target="_blank"
           >
-            https://www.figma.com/proto/lsUK8jvIfAbO9sVPQF0qbj/Wiki-Realms-Main-Wireframing?type=design&node-id=932-10281&t=8xCXBJbXtO2blFzv-0&scaling=scale-down&page-id=647%3A447&starting-point-node-id=932%3A10281
+          WikiRealms App
           </a>
         </p>
         <iframe
