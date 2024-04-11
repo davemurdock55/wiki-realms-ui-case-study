@@ -3,6 +3,8 @@ import DMphoto from "../images/Fall 2021 Profile (500) copy.png";
 import AMphoto from "../images/AndrewMoss_Photo.jpg";
 import SPphoto from "../images/Sara2023.jpg";
 
+import LazyLoad from 'react-lazyload';
+
 export default function TheTeam() {
   return (
     <div className="p-1 rounded-lg ">
@@ -29,7 +31,9 @@ export default function TheTeam() {
 function PersonCard(name, image, major) {
   return (
     <div className="flex flex-row">
-      <img className={`w-24 h-24 rounded-full object-cover object-center`} src={image} alt={"Profile Image"}/>
+      <LazyLoad>
+        <img className={`w-24 h-24 rounded-full object-cover object-center`} src={image} alt={"Profile Image"}/>
+      </LazyLoad>
       <div className="flex items-center px-4">
         <p>
           <b>{ name }</b>
