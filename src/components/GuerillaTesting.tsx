@@ -2,7 +2,7 @@ import React from "react";
 
 export default function GuerillaTesting() {
   return (
-    <div className="p-5 rounded-lg bg-fuchsia-300 drop-shadow-xl">
+    <div className="p-1 rounded-lg bg-fuchsia-300 drop-shadow-xl">
       <div className="p-3 bg-white rounded-lg">
         <h2 className="mb-1 text-xl font-medium">Guerilla Testing</h2>
         <p className="mb-3 text-sm">
@@ -17,9 +17,19 @@ export default function GuerillaTesting() {
           of testing.
           <br />
           <br />
-          The full report of our guerilla testing findings can be found{" "}
+          The main results of our user tests were as follows:
+          <ul className="pl-5 list-disc">
+            <li>Users found the Realm Page layout confusing, often overlooking the Realm Sidebar</li>
+            <li>Users had trouble adding a new page</li>
+            <li>Due to increasing button size, users were able to accurately use all the buttons that were implemented</li>
+            <li>Users loved the addition of the Back Button</li>
+            <li>Other minor adjustments</li>
+          </ul>
+          <br />
+          <br />
+          The full report of our guerilla testing findings can be found using{" "}
           <a href="https://docs.google.com/document/d/1-3RHz665JNQft4jtbPsN7HQ5nsHZhWAiQl8EJ0V4isM/edit" className="underline text-fuchsia-500 hover:text-fuchsia-600" target="_blank">
-            here
+            This Link
           </a>
           .
         </p>
