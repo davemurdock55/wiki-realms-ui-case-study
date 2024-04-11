@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/wiki-realms-ui-case-study/static/css/main.f855e6bc.css",
-    "main.js": "/wiki-realms-ui-case-study/static/js/main.7edb4589.js",
+    "main.css": "/wiki-realms-ui-case-study/static/css/main.422005c1.css",
+    "main.js": "/wiki-realms-ui-case-study/static/js/main.e1250f92.js",
     "static/js/453.091e08c4.chunk.js": "/wiki-realms-ui-case-study/static/js/453.091e08c4.chunk.js",
-    "static/media/logo.svg": "/wiki-realms-ui-case-study/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Fall 2021 Profile (500) copy.png": "/wiki-realms-ui-case-study/static/media/Fall 2021 Profile (500) copy.761f338bd3d98494f515.png",
+    "static/media/AndrewMoss_Photo.jpg": "/wiki-realms-ui-case-study/static/media/AndrewMoss_Photo.8b834c2fd06cf59713ba.jpg",
+    "static/media/Emma_persona.png": "/wiki-realms-ui-case-study/static/media/Emma_persona.603ab893789607acdb3a.png",
+    "static/media/RealmPage_Prototype1.png": "/wiki-realms-ui-case-study/static/media/RealmPage_Prototype1.5afa76b0ae1740fa9400.png",
+    "static/media/Sara2023.jpg": "/wiki-realms-ui-case-study/static/media/Sara2023.f58176bcb11d04a29590.jpg",
+    "static/media/Figjam_2.png": "/wiki-realms-ui-case-study/static/media/Figjam_2.22b9ab793f933f6ade59.png",
+    "static/media/LeftSidebar_Prototype1.png": "/wiki-realms-ui-case-study/static/media/LeftSidebar_Prototype1.0bf7afc8080aa3656464.png",
+    "static/media/Figjam_1.png": "/wiki-realms-ui-case-study/static/media/Figjam_1.8fc18dfde5e613f4b27c.png",
+    "static/media/Emma_Experience_Map.png": "/wiki-realms-ui-case-study/static/media/Emma_Experience_Map.c79126da6cecacf111dd.png",
+    "static/media/user_task_flow.png": "/wiki-realms-ui-case-study/static/media/user_task_flow.55518cbc54825538b216.png",
+    "static/media/FlowChart.png": "/wiki-realms-ui-case-study/static/media/FlowChart.21e73f29586f13e88319.png",
+    "static/media/wiki_realms_icon_outline_large.svg": "/wiki-realms-ui-case-study/static/media/wiki_realms_icon_outline_large.34322efab96b85e575d2d8cb71020dae.svg",
     "index.html": "/wiki-realms-ui-case-study/index.html",
-    "main.f855e6bc.css.map": "/wiki-realms-ui-case-study/static/css/main.f855e6bc.css.map",
-    "main.7edb4589.js.map": "/wiki-realms-ui-case-study/static/js/main.7edb4589.js.map",
+    "main.422005c1.css.map": "/wiki-realms-ui-case-study/static/css/main.422005c1.css.map",
+    "main.e1250f92.js.map": "/wiki-realms-ui-case-study/static/js/main.e1250f92.js.map",
     "453.091e08c4.chunk.js.map": "/wiki-realms-ui-case-study/static/js/453.091e08c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.7edb4589.js"
+    "static/css/main.422005c1.css",
+    "static/js/main.e1250f92.js"
   ]
 }
