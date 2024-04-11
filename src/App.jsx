@@ -12,13 +12,13 @@ import ProjectInsight from "./components/ProjectInsight.tsx";
 import TheTeam from "./components/TheTeam.tsx";
 import UnderstandingTheProject from "./components/UnderstandingTheProject.tsx";
 import UsabilityTesting from "./components/UsabilityTesting.tsx";
-import persona_image from "./images/wiki_realms_icon_outline_large.svg";
+import wiki_realms_logo from "./images/wiki_realms_icon_outline_large.svg";
 
 function App() {
   return (
     <div className="w-full">
       <header className="flex items-center justify-center gap-4 py-8 bg-fuchsia-100">
-        <img src={persona_image} className="w-12" alt="Persona" />
+        <img src={wiki_realms_logo} className="w-12" alt="Persona" />
         <h1 className="text-4xl font-medium text-center text-fuchsia-500">WikiRealms: A Case Study on Mobile Navigation</h1>
       </header>
       <div className="flex flex-col justify-center my-10 gap-y-10 px-[10%]">
@@ -26,7 +26,6 @@ function App() {
         <TheTeam />
         <ProjectInsight />
         <ProblemStatement />
-        <UnderstandingTheProject />
         <Persona />
         <InitialDesignWork />
         <UsabilityTesting />
