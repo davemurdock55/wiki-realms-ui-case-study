@@ -30,11 +30,13 @@ function PersonCard(name, image, major) {
   return (
     <div className="flex flex-row">
       <img className={`w-24 h-24 rounded-full object-cover object-center`} src={image} alt={"Profile Image"}/>
-      <p>
-        <b>{ name }</b>
-        <br/>
-        { major }
-      </p>
+      <div className="flex items-center px-4">
+        <p>
+          <b>{ name }</b>
+          <br/>
+          { major }
+        </p>
+      </div>
     </div>
   );
 }
