@@ -12,6 +12,10 @@ export default function ProjectInsight() {
           to zoom in and focus on masterfully tweaking the minute details that will bring their world to life as well as breathe character into the diverse cultures, backdrops, and characters in their
           work.
         </p>
+        <p className="mb-3 text-sm">
+          Our task was to take this feedback and transform it into an app with features that have rarely been seen in any other existing applications. In addition, we also had to balance keeping the
+          app simple while still allowing for complexity to leverage the power of the app to help writers worldbuild.
+        </p>
       </div>
     </div>
   );
