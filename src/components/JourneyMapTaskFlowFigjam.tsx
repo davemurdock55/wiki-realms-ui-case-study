@@ -5,7 +5,7 @@ import TaskFlow from "../images/user_task_flow.png";
 import FigJam1 from "../images/Figjam_1.png";
 import FigJam2 from "../images/Figjam_2.png";
 // <img src={persona_image} className="h-4/5" alt="Persona" />
-// import MyCarousel from "./Carousel.tsx";
+import MyCarousel from "./Carousel.tsx";
 
 
 export default function JourneyMapTaskFlowFigjam() {
@@ -34,6 +34,7 @@ export default function JourneyMapTaskFlowFigjam() {
           <img src={FigJam1} className="h-4/5" alt="FigJam1" />
           <img src={FigJam2} className="h-4/5" alt="FigJam2" />
         </p>
+        {/* <MyCarousel/> */}
 
         {/* Everything for the Carousel (which doesn't work) is below: */}
         {/* <div className="w-full bg-white rounded-lg shadow-md dark:bg-gray-800">
