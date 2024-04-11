@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from 'react-lazyload';
 
 export default function InitialDesignWork() {
   return (
@@ -14,13 +15,15 @@ export default function InitialDesignWork() {
           functionality for any extra features we thought to have in our app were not implemented in this prototype, but in testing we asked users what their thoughts would be concerning the planned
           updates we had in mind.
         </p>
-        <iframe
-          className="w-full border-2 h-[500px]"
-          // width="100%"
-          // height="450"
-          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlsUK8jvIfAbO9sVPQF0qbj%2FWiki-Realms-Main-Wireframing%3Fnode-id%3D83-475%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D83%253A475%26t%3DGLQKe8D6eg5lcMuO-1%26mode%3Ddesign"
-          // allowfullscreen
-        ></iframe>
+        <LazyLoad>
+          <iframe
+            className="w-full border-2 h-[500px]"
+            // width="100%"
+            // height="450"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlsUK8jvIfAbO9sVPQF0qbj%2FWiki-Realms-Main-Wireframing%3Fnode-id%3D83-475%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D83%253A475%26t%3DGLQKe8D6eg5lcMuO-1%26mode%3Ddesign"
+            // allowfullscreen
+          ></iframe>
+        </LazyLoad>
         <p className="mb-3 text-sm">
           <br />
           The following is a link to our first WikiRealms prototype shown as an application:
