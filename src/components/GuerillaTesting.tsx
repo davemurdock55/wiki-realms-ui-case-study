@@ -29,7 +29,7 @@ export default function GuerillaTesting() {
           <br />
           The full report of our guerilla testing findings can be found using{" "}
           <a href="https://docs.google.com/document/d/1-3RHz665JNQft4jtbPsN7HQ5nsHZhWAiQl8EJ0V4isM/edit" className="underline text-fuchsia-500 hover:text-fuchsia-600" target="_blank">
-            This Link
+            this link
           </a>
           .
         </p>
