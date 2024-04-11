@@ -15,20 +15,24 @@ import UsabilityTesting from "./components/UsabilityTesting.tsx";
 
 function App() {
   return (
-    <div className="flex flex-col justify-center my-10 gap-y-10 mx-80">
-      <h1 className="text-4xl font-medium text-center text-fuchsia-500">Wiki Realms UI Case Study</h1>
-      <Intro />
-      <TheTeam />
-      <ProjectInsight />
-      <ProblemStatement />
-      <UnderstandingTheProject />
-      <Persona />
-      <InitialDesignWork />
-      <UsabilityTesting />
-      <JourneyMapTaskFlowFigjam />
-      <HighFidelityDesignWork />
-      <GuerillaTesting />
-      <FutureThoughtsPlans />
+    <div className="w-full"> 
+      <header className="py-8 bg-fuchsia-100">
+        <h1 className="text-4xl font-medium text-center text-fuchsia-500">WikiRealms: A Case Study on Mobile Navigation</h1>
+      </header>
+      <div className="flex flex-col justify-center my-10 gap-y-10 px-[10%]">
+        <Intro />
+        <TheTeam />
+        <ProjectInsight />
+        <ProblemStatement />
+        <UnderstandingTheProject />
+        <Persona />
+        <InitialDesignWork />
+        <UsabilityTesting />
+        <JourneyMapTaskFlowFigjam />
+        <HighFidelityDesignWork />
+        <GuerillaTesting />
+        <FutureThoughtsPlans />
+      </div>
     </div>
     // <div className="App">
     //   <header className="App-header">
