@@ -22,8 +22,8 @@ export default function UsabilityTesting() {
           After extensive and repeated testing, our team organized all the feedback we observed and received into various categories of areas our application did well, and areas we needed to improve
           upon. In general, our users loved the navigation sidebar, informative page blocks, and useful block templates (not yet implemented).
           <div className="flex flex-row justify-center gap-10 my-5">
-            <img src={LeftSidebarImage} style={{ width: '25%', height: '25%' }} className="h-4/5" alt="LeftSidebarImage" />
-            <img src={RealmPageImage} style={{ width: '25%', height: '25%' }} className="h-4/5" alt="RealmPageImage" />
+            <img src={LeftSidebarImage} style={{ width: "25%", height: "25%" }} className="h-4/5" alt="LeftSidebarImage" />
+            <img src={RealmPageImage} style={{ width: "25%", height: "25%" }} className="h-4/5" alt="RealmPageImage" />
           </div>
           Despite the love for these core features, there were some areas users found troubling. Our notes on the main areas we needed to change are as follows:
           <ul className="pl-5 list-disc">
